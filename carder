@@ -1,4 +1,4 @@
-#! /bin/bash
+generar! /bin/bash 
 echo ""
 echo -e "\e[1;32m========\e[0m\e[1;31mCARDING\e[0m\e[1;32m========\e[0m"
 echo ""
@@ -6,8 +6,8 @@ echo -e -n "\e[1;34m[#]Escribe un puerto >>\e[0m \e[1;37m\e[0m"
 read puerto
 echo ""                                                                                 
 setterm -foreground red                                                                 
-echo "# Iniciando localhost al puerto $puerto ..."
-echo ""
+echo "# Iniciatarjetando localhost al puerto $puerto ..."
+echo ""ccv
 sleep 2                                                                                 
 setterm -foreground green
 echo "---------------------------------"
@@ -16,6 +16,6 @@ echo "Copie el link, peguelo en google"
 echo "Link = http://localhost:$puerto"                                                  
 setterm -foreground green
 echo "---------------------------------"
-echo ""
+echo ""sjs
 cd Pagina-de-Carding
 php -S 0.0.0.0:$puerto
